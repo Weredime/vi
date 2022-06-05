@@ -1,0 +1,8 @@
+<script>
+  window.addEventListener("load", () => {
+    const id = location.pathname.split("/")[2];
+    document.querySelector("img").src = `https://assets.scratch.mit.edu/${id}`;
+    document.currentScript.remove();
+  });
+</script>
+<img>
